@@ -1,0 +1,15 @@
+//jQuery para colapse o navbar ao fazer scroll
+$(window).scroll(function() {
+
+});
+
+//jQuery para o deslocar do site - necessita jQuery Easing plugin
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});

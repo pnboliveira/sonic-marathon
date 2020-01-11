@@ -1,0 +1,188 @@
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: 'Roboto', sans-serif;
+        background: url(../img/pattern.png) center center fixed;
+    }
+    
+    html {
+        width: 100%;
+        height: 100%;
+    }
+    /* Anim for the menu when switching from mobile -> desktop */
+    
+    @media(min-width:767px) {
+        .navbar {
+            padding: 5px 0;
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+            border: 0px;
+        }
+        .top-nav-collapse {
+            padding: 0;
+        }
+        /* images */
+        .donate {
+            padding-top: 30px;
+            margin-left: 80px;
+        }
+        /* end of images */
+    }
+    /* Headers */
+    
+    h1 {
+        color: #FFF;
+        background-color: rgba( 200, 200, 200, 0.8);
+        border: 3px solid grey;
+        padding: 10px;
+        text-shadow: 3px 3px 9px #000000;
+    }
+    /* navbars */
+    
+    .navbar-default .navbar-nav>li>a {
+        color: #FFF;
+    }
+    
+    .navbar-default .navbar-brand {
+        color: #FFF;
+    }
+    
+    .navbar-brand img {
+        margin-top: -19px;
+    }
+    
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+    }
+    /* end of navbars */
+    /* paragraphs */
+    
+    p {
+        color: #fff;
+        border: 3px solid black;
+        padding: 15px;
+        background-color: rgba( 0, 0, 0, 0.8);
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    .contact-p {
+        color: #fff;
+        background-color: rgba( 200, 200, 200, 0.8);
+        border: 3px solid grey;
+        padding: 5px;
+        text-shadow: 3px 3px 5px #000000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .stream {
+        padding: 5px;   
+    }
+    /* end of Paragraphs */
+    /* dropdowns */
+    
+    .game-dropdown {
+        background-color: #588dff;
+        color: White;
+    }
+    
+    .game-dropdown:hover {
+        background-color: #588dff;
+        color: White;
+    }
+    
+    .game-dropdown.open>.dropdown-toggle.btn-default {
+        background-color: #779ef2;
+        color: White;
+    }
+    
+    .game-dropdown.dropdown-menu>li>a {
+        background-color: #588dff;
+        pointer-events: none;
+        cursor: default;
+        color: White;
+    }
+    
+    .game-dropdown.dropdown-menu>li>a:hover {
+        pointer-events: none;
+        cursor: default;
+        color: White;
+    }
+    /* end of dropdowns */
+    /* page sections */
+    
+    .donation {
+        padding-bottom: 10px;
+        margin-bottom: -570px;
+        height: 100%;
+        ;
+    }
+    
+    .intro-section {
+        height: 100%;
+        padding-top: 60px;
+        text-align: center;
+    }
+    
+    .about-section {
+        height: 100%;
+        padding-top: 110px;
+        margin-top: 500px;
+        text-align: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .games-section {
+        height: 100%;
+        padding-top: 110px;
+        margin-top: 400px;
+        text-align: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .album-section {
+        height: 100%;
+        padding-top: 110px;
+        text-align: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    #contacts {
+        height: 100%;
+        padding-top: 110px;
+        margin-bottom: -400px;
+        text-align: center;
+    }
+    /* end of page sections */
+    /* footer */
+    
+    #footer {
+        padding: 50px;
+    }
+    
+    footer p {
+        color: #fff;
+        border: 3px solid black;
+        padding: 14px;
+        background-color: rgba( 0, 0, 0, 0.8);
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    /* end of footer */

@@ -1,0 +1,87 @@
+body {
+    z-index: 1;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.main {
+    z-index: -1;
+}
+
+body:before {
+    content: "";
+    z-index: -1;
+    background: url(../images/pattern.png) center center;
+    position: fixed;
+    background-size: 5%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+}
+
+.brand-logo img {
+    height: 64px!important;
+}
+
+#about img{
+    
+    padding: 5%;
+}
+
+.donate {
+    padding-top: 30px;
+}
+
+.donation_desktop {
+    padding-bottom: 8%;
+    border-style: none;
+}
+
+.donation_mobile {
+    padding-bottom: 15%;
+    border-style: none;
+}
+
+.chat {
+    height: 100%!important;
+}
+
+#stream {
+    margin-top: -60px;
+}
+
+.nav-wrapper a {
+    color: #000!important;
+}
+
+.card-content p {
+    text-align: justify;
+}
+
+.about > a {
+    color: #588dff!important;
+}
+
+.about > a:hover {
+    color: #F5841F!important;
+}
+
+.dropdown-content {
+    overflow-y: scroll;
+    overflow: hidden;
+    height: auto !important;
+}
+
+.dropdown-content a {
+    cursor: default;
+    color: blue!important;
+}
