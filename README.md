@@ -7,8 +7,8 @@ Hi! This is a history of some websites I developed for **Sonic Marathon**, a 7-d
 
 This repository includes websites for the following editions:
 
- - Sonic Marathon 5
- - Sonic Marathon 6
+ - [Sonic Marathon 5](https://gitlab.com/pnboliveira/sonic-marathon/tree/master/Sonic%20Marathon%205)
+ - [Sonic Marathon 6](https://gitlab.com/pnboliveira/sonic-marathon/tree/master/Sonic%20Marathon%206)
 
 These were both made in two different frameworks, namely [**Bootstrap**](https://getbootstrap.com) and [**Materialize**](https://materializecss.com), useful for mobile responsiveness and a streamlined grid system for layouts and the sort.
 
