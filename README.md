@@ -10,7 +10,7 @@ This repository includes websites for the following editions:
  - Sonic Marathon 5
  - Sonic Marathon 6
 
-These were both made in two different frameworks, namely [**Bootstrap**](getbootstrap.com) and [**Materialize**](materializecss.com), useful for mobile responsiveness.
+These were both made in two different frameworks, namely [**Bootstrap**](getbootstrap.com) and [**Materialize**](materializecss.com), useful for mobile responsiveness and a streamlined grid system for layouts and the sort.
 
 The SM6 folder uses an earlier version of a dynamic Twitch embed built for my [portfolio website](https://gitlab.com/pnboliveira/portfolioweb/blob/master/js/init.js), which also uses the Twitch API.
 
