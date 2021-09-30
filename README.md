@@ -11,7 +11,7 @@ This repository includes websites for the following editions:
 
 These were both made in two different frameworks, namely [**Bootstrap**](https://getbootstrap.com) and [**Materialize**](https://materializecss.com), useful for mobile responsiveness and a streamlined grid system for layouts and the sort.
 
-The SM6 folder uses an earlier version of a dynamic Twitch embed built for my [portfolio website](https://gitlab.com/pnboliveira/portfolioweb/blob/master/js/init.js), which also uses the Twitch API.
+The SM6 folder uses an earlier version of a dynamic Twitch embed built for my [portfolio website](https://github.com/pnboliveira/portfolioweb/blob/master/js/init.js), which also uses the Twitch API.
 
 # Obligatory Disclaimer
 
