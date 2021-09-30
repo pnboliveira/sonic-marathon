@@ -2,13 +2,12 @@
 
 Hi! This is a history of some websites I developed for **Sonic Marathon**, a 7-day stream of [Sonic the Hedgehog](https://twitter.com/sonic_hedgehog) games, all to help out [Special Effect](https://www.specialeffect.org.uk/), a charity dedicated to help people with disabilities enjoy video games in accessible ways.
 
-
 # What's included?
 
 This repository includes websites for the following editions:
 
- - [Sonic Marathon 5](https://gitlab.com/pnboliveira/sonic-marathon/tree/master/Sonic%20Marathon%205)
- - [Sonic Marathon 6](https://gitlab.com/pnboliveira/sonic-marathon/tree/master/Sonic%20Marathon%206)
+- [Sonic Marathon 5](https://github.com/pnboliveira/sonic-marathon/tree/master/Sonic%20Marathon%205)
+- [Sonic Marathon 6](https://github.com/pnboliveira/sonic-marathon/tree/master/Sonic%20Marathon%206)
 
 These were both made in two different frameworks, namely [**Bootstrap**](https://getbootstrap.com) and [**Materialize**](https://materializecss.com), useful for mobile responsiveness and a streamlined grid system for layouts and the sort.
 
@@ -20,6 +19,6 @@ Sonic the Hedgehog, its characters and brand is © SEGA and Sonic Team. This pro
 
 ## Special Thanks
 
-Thank you to everyone who collaborated on this marathon for years on end, to [Zack](https://twitter.com/SirDoctor) for letting me help out in this project, to [RadioSEGA](https://www.radiosega.net) for giving the marathon a spotlight, and you for watching and participating! 
+Thank you to everyone who collaborated on this marathon for years on end, to [Zack](https://twitter.com/SirDoctor) for letting me help out in this project, to [RadioSEGA](https://www.radiosega.net) for giving the marathon a spotlight, and you for watching and participating!
 
 (And, of course, for taking the time and checking out this repository.)
